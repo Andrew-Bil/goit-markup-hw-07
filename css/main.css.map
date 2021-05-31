@@ -16,7 +16,7 @@
         "../sass/components/_team-section.scss",
         "../sass/components/_clients-section.scss",
         "../sass/components/_page-portfolio.scss",
-        "../sass/components/footer.scss"
+        "../sass/components/_footer.scss"
     ],
     "names": [],
     "file": "main.css"
