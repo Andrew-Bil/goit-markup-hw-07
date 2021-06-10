@@ -13,25 +13,25 @@
   <body>
     <!-- навигация сайта -->
     <header class="header">
-      <div class="header__nav">
+      <div class="header__container">
         <nav>
           <a class="header__logo" href="/">Web<span class="header__logo2">Studio</span></a>
-          <ul class="nav">
+          <ul class="nav__list">
             <li class="nav__item"><a class="nav__link nav__link--current" href="/">Студия</a></li>
             <li class="nav__item"><a class="nav__link" href="./portfolio.html">Портфолио</a></li>
             <li class="nav__item"><a class="nav__link" href="">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="nav">
-          <li class="nav__list">
-            <a class="nav__contacts-link" href="mailto:info@devstudio.com">
-              <svg class="nav__contacts-icon" width="16" height="12">
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <a class="contacts__link" href="mailto:info@devstudio.com">
+              <svg class="contacts__icon" width="16" height="12">
               <use href="./images/sprite.svg#icon-envelope"> </use></svg>
             info@devstudio.com</a>
           </li>
           <li>
-          <a class="nav__contacts-link" href="tel:+380961111111">
-            <svg class="nav__contacts-icon" width="10" height="16">
+          <a class="contacts__link" href="tel:+380961111111">
+            <svg class="contacts__icon" width="10" height="16">
               <use href="./images/sprite.svg#icon-phone"> </use></svg>
             +38 096 111 11 11</a>
           </li>
@@ -42,7 +42,7 @@
     <!-- main -->
     <main>
       <section class="hero">
-        <div class="hero__main">
+        <div>
             <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
             <button data-modal-open class="hero__btn" type="button" >Заказать услугу</button>
         </div>
@@ -50,11 +50,11 @@
 
       <!--features-->
       <section class="features">
-        <div class="features__box">
+        <div class="features__container">
           <h2 class="visually__hidden">hidden header</h2>
           <ul class="features__list">
             <li class="features__item">
-                  <div class="features__icon-wrap">
+                  <div class="features__box">
                     <svg width="70" height="70">
                       <use href="./images/sprite.svg#icon-antenna"></use>
                     </svg>
@@ -65,8 +65,8 @@
                формированию позиции.
               </p>
             </li>
-            <li class="features-list-element">
-                  <div class="features__icon-wrap">
+            <li class="features__item">
+                  <div class="features__box">
                     <svg width="70" height="70">
                       <use href="./images/sprite.svg#icon-clock"></use>
                     </svg>
@@ -77,8 +77,8 @@
                 влечет за собой.
               </p>
             </li>
-            <li class="features-list-element">
-                  <div class="features__icon-wrap">
+            <li class="features__item">
+                  <div class="features__box">
                     <svg width="70" height="70">
                       <use href="./images/sprite.svg#icon-diagram"></use>
                     </svg>
@@ -89,8 +89,8 @@
                 степени обуславливает.
               </p>
             </li>
-            <li class="features-list-element">
-                  <div class="features__icon-wrap">
+            <li class="features__item">
+                  <div class="features__box">
                     <svg width="70" height="70">
                       <use href="./images/sprite.svg#icon-astronaut"></use>
                     </svg>
@@ -107,7 +107,7 @@
 
       <!-- occupations -->
       <section class="occupations">
-        <div class="occupations__box">
+        <div class="occupations__container">
           <h2 class="title">Чем мы занимаемся</h2>
           <ul class="occupations__list">
             <li class="occupations__item">

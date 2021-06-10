@@ -14,27 +14,27 @@
 
     <!-- навигация сайта -->
   <header class="header">
-    <div class="header__nav">
+    <div class="header__container">
       <nav>
         <a class="header__logo" href="./">Web<span class="header__logo2">Studio</span></a>
 
-        <ul class="nav">
+        <ul class="nav__list">
           <li class="nav__item"><a class="nav__link studio" href="./index.html">Студия</a></li>
           <li class="nav__item"><a class="nav__link nav__link--current" href="">Портфолио</a></li>
           <li class="nav__item"><a class="nav__link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="nav">
-        <li class="nav__list">
-        <a class="nav__contacts-link" href="mailto:info@devstudio.com">
-          <svg class="nav__contacts-icon" width="16" height="12">
+      <ul class="contacts__list">
+        <li class="contacts__item">
+        <a class="contacts__link" href="mailto:info@devstudio.com">
+          <svg class="contacts__icon" width="16" height="12">
             <use href="./images/sprite.svg#icon-envelope"> </use>
           </svg>
           info@devstudio.com</a>
         </li>
         <li>
-        <a class="nav__contacts-link" href="tel:+380961111111">
-          <svg class="nav__contacts-icon" width="10" height="16">
+        <a class="contacts__link" href="tel:+380961111111">
+          <svg class="contacts__icon" width="10" height="16">
             <use href="./images/sprite.svg#icon-phone"> </use>
           </svg>
           +38 096 111 11 11</a>
@@ -45,13 +45,13 @@
 
     <main>
       <section class="galery">
-      <div class="galery__box">
+      <div class="galery__container">
         <ul class="galery__filter">
-            <li class="galery__filter-item"><button class="galery__filter-btn" type="button">Все</button></li>
-            <li class="galery__filter-item"><button class="galery__filter-btn" type="button">Веб-сайты</button></li>
-            <li class="galery__filter-item"><button class="galery__filter-btn" type="button">Приложения</button></li>
-            <li class="galery__filter-item"><button class="galery__filter-btn" type="button">Дизайн</button></li>
-            <li class="galery__filter-item"><button class="galery__filter-btn" type="button">Маркетинг</button></li>
+            <li class="galery__filter-item"><button class="galery__btn" type="button">Все</button></li>
+            <li class="galery__filter-item"><button class="galery__btn" type="button">Веб-сайты</button></li>
+            <li class="galery__filter-item"><button class="galery__btn" type="button">Приложения</button></li>
+            <li class="galery__filter-item"><button class="galery__btn" type="button">Дизайн</button></li>
+            <li class="galery__filter-item"><button class="galery__btn" type="button">Маркетинг</button></li>
         </ul>
         
         <ul class="galery__list">
@@ -63,7 +63,7 @@
                     <p class="galery__text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                   </div>
                 </div>  
-                <div class="galery__card-caption">
+                <div class="galery__card">
                   <h3 class="galery__card-title">Технокряк</h3>
                   <p class="galery__card-dscr">Веб-сайт</p>
                 </div>
@@ -78,7 +78,7 @@
                   <p></p>
                 </div>
                 </div>
-                <div class="galery__card-caption">
+                <div class="galery__card">
                   <h3 class="galery__card-title">Постер New Orlean vs Golden Star</h3>
                   <p class="galery__card-dscr">Дизайн</p>
                 </div>  
@@ -92,7 +92,7 @@
                   <p></p>
                 </div>
                 </div>
-                <div class="galery__card-caption">
+                <div class="galery__card">
                   <h3 class="galery__card-title">Ресторан Seafood</h3>
                   <p class="galery__card-dscr">Приложение</p>
                 </div>
@@ -106,7 +106,7 @@
                   <p></p>
                 </div>
                 </div>
-                <div class="galery__card-caption">
+                <div class="galery__card">
                   <h3 class="galery__card-title">Проект Prime</h3>
                   <p class="galery__card-dscr">Маркетинг</p>
                 </div> 
@@ -120,7 +120,7 @@
                   <p></p>
                 </div>
                 </div>
-                <div class="galery__card-caption">
+                <div class="galery__card">
                   <h3 class="galery__card-title">Проект Boxes</h3>
                   <p class="galery__card-dscr">Приложение</p>
                 </div>  
@@ -134,7 +134,7 @@
                   <p></p>
                 </div>
                 </div>
-                <div class="galery__card-caption">
+                <div class="galery__card">
                   <h3 class="galery__card-title">Inspiration has no Borders</h3>
                   <p class="galery__card-dscr">Веб-сайт</p>
                 </div>  
@@ -148,7 +148,7 @@
                   <p></p>
                 </div>
                 </div>
-                <div class="galery__card-caption">
+                <div class="galery__card">
                   <h3 class="galery__card-title">Издание Limited Edition</h3>
                   <p class="galery__card-dscr">Дизайн</p>
                 </div>  
@@ -162,7 +162,7 @@
                   <p></p>
                 </div>
                 </div>
-                <div class="galery__card-caption">
+                <div class="galery__card">
                   <h3 class="galery__card-title">Проект LAB</h3>
                   <p class="galery__card-dscr">Маркетинг</p>
                 </div>
@@ -176,7 +176,7 @@
                   <p></p>
                 </div>
                 </div>
-                <div class="galery__card-caption">
+                <div class="galery__card">
                   <h3 class="galery__card-title">Growing Business</h3>
                   <p class="galery__card-dscr">Приложение</p>
               </div>

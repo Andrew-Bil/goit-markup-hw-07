@@ -10,7 +10,7 @@
   margin-right: 8px;
 }
 
-.galery__filter-btn {
+.galery__btn {
   padding: 6px 22px;
   font-family: var(--main-font);
   font-weight: 500;
@@ -26,8 +26,8 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.galery__filter-btn:hover,
-.galery__filter-btn:focus {
+.galery__btn:hover,
+.galery__btn:focus {
   color: var(--title-cl);
   background-color: var(--accent-cl);
   cursor: pointer;
@@ -101,7 +101,7 @@
   color: #ffffff;
 }
 
-.galery__card-caption {
+.galery__card {
   padding: 20px 24px;
   background: var(--title-cl);
   border: 1px solid var(--border-color);

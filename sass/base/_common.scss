@@ -21,13 +21,13 @@ body {
   color: var(--grey-dg-text);
 }
 
-.header__nav,
-.features__box,
-.occupations__box,
+.header__container,
+.features__container,
+.occupations__container,
 .team__box,
 .clients__box,
 .footer__box,
-.galery__box {
+.galery__container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
